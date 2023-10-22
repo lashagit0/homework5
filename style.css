@@ -73,3 +73,48 @@ nav{
     }
     
 }
+.banner{
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 190px;
+}
+h1{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.72px;
+}
+.bottom-line{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.orange-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button{
+    display: flex;
+    width: 250px;
+    height: 66px;
+    padding: 13px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FF5403;
+}
